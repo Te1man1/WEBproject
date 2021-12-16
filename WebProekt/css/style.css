@@ -1,0 +1,54 @@
+.header {
+    position: relative;
+    width: 100%;
+    height:600px;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:inherit;     
+}
+#video-container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+#navbar
+{
+    background-color: rgba(167, 167, 167, 0);
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    width:100%;
+    height: fit-content;
+    z-index: 100;
+    
+}
+video.fillwidth {
+    position: inherit;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+    z-index:inherit;
+}
+.container
+{
+    margin-top: 80px;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    
+}
