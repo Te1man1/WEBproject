@@ -49,6 +49,5 @@ video.fillwidth {
 }
 .overlay h1 {
     text-align:center;
-    color:#fff;
-    
+      color: red;
 }
