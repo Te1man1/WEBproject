@@ -1,33 +1,10 @@
-.page-title{
-    position: absolute;
-width: 506px;
-height: 120px;
-left: 130px;
-bottom: 340px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 52px;
-line-height: 60px;
-/* or 115% */
-
-display: flex;
-align-items: center;
-
-/* White */
-
-color: #FFFFFF;
-
-border: 1px solid #000000;
-}
 .header {
     position: relative;
     width: 100%;
     height:600px;
 }
 .overlay {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.658);
     position: absolute;
     top:0;
     left:0;
@@ -72,6 +49,6 @@ video.fillwidth {
 .overlay h1 {
     text-align:center;
     color:#fff;
-    font-size: 60px;
+    font-size: 70px;
     
 }
