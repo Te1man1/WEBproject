@@ -1,25 +1,11 @@
-.page-title{
-    position: absolute;
-width: 506px;
-height: 120px;
+.zagolovok{
 left: 130px;
 bottom: 340px;
-
-font-family: Montserrat;
-font-style: normal;
+text-align: left;
 font-weight: bold;
-font-size: 52px;
+font-size: 45px;
 line-height: 60px;
-/* or 115% */
-
-display: flex;
-align-items: center;
-
-/* White */
-
 color: #FFFFFF;
-
-border: 1px solid #000000;
 }
 .header {
     position: relative;
@@ -74,4 +60,15 @@ video.fillwidth {
     color:#fff;
     font-size: 70px;
     
+}
+.competency-icon:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 115px;
+    height: 70px;
+    background: url(/themes/custom/bootstrap_dc/css/../images/icon-bg.svg) no-repeat center;
+    background-size: contain;
+    left: -54px;
+    bottom: -4px;
 }
